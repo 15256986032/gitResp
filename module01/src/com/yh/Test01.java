@@ -1,22 +1,17 @@
 package com.yh;
 
-import java.io.Serializable;
+public class Test01 {
 
-public class Test01 implements Serializable {
-
-    private static final long serialVersionUID = 5010959790173085679L;
-    private String name;
-    private String age;
+    private static String name;
+    private static String age;
+    public static String school;
 
     public static void main(String[] args) {
         String a = "hi yaohui";
-        System.out.println(a);
-        for (int i = 0; i < 100; i++) {
-            String b = "13213213";
-        }
+        System.out.println(school);
+    }
 
-        if (a != null) {
-
-        }
+    public static void getName() {
+        System.out.println("hello");
     }
 }
