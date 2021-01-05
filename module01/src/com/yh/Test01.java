@@ -12,7 +12,7 @@ public class Test01 implements Serializable {
         String a = "hi yaohui";
         System.out.println(a);
         for (int i = 0; i < 100; i++) {
-            String b = "";
+            String b = "13213213";
         }
 
         if (a != null) {
